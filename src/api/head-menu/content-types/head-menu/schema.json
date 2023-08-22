@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "head_menus",
+  "info": {
+    "singularName": "head-menu",
+    "pluralName": "head-menus",
+    "displayName": "Head-Menu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Api": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "status": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
